@@ -5055,7 +5055,7 @@ void InserirDados(void)
 		fwrite(&Reg,sizeof(TpClientes),1,PtrCli);
 		
 		strcpy(Reg.CEPC,"19260-000");
-		strcpy(Reg.cidadeC,"Mirante do Paranapanema");
+		strcpy(Reg.cidadeC,"Lagoas");
 		strcpy(Reg.enderecoC,"Rua Shiguero");
 		strcpy(Reg.nomeC,"Emily Oliveira");
 		Reg.Status='A';
